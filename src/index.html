@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet">
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <title></title>
+</head>
+
+<body x-data="{ open: false }" class="">
+  <!--nav section--->
+  <header class="">
+    <div class="w-[100vw] h-[100vh] bg-cover md:h-[710px] md:w-[100%] md:bg-contain bg-no-repeat bg-[url('../src/assets/background.png')]">
+      <nav class=" ">
+        <div class="hidden md:flex flex justify-between mx-auto w-[80%] bg-transparent md:py-12 md:px-16 ">
+          <ul class=" flex flex-row space-x-8 text-white items-center text-1xl font-medium">
+            <li class=""><a href="">Home</a></li>
+            <li class=""><a href="">Product</a></li>
+            <li class=""><a href="">Pricing</a></li>
+            <li class=""><a href="">About</a></li>
+            <li class=""><a href="">Contact</a></li>
+            <img class="" src="./assets/Rectangle 4.png">
+          </ul>
+
+          <div class=" flex flex-row space-x-5 items-center">
+            <img class="flex items-center w-8 h-8 " src="./assets/Vector (2).png">
+            <img class="flex items-center w-8 h-8" src="./assets/Vector (1).png">
+            <img class="flex items-center w-8 h-8" src="./assets/instagram111.png">
+          </div>
+        </div>
+        <!----mini nav-->
+        <div class="mininav">
+          <div class="md:hidden flex flex justify-between pt-3 items-center px-4">
+            <img class="" src="./assets/Rectangle 4.png">
+            <img x-on:click="open= !open" class="h-5 w-10" src="./assets/ham1.png">
+          </div>
+          <div class="flex flex-col mx-auto  bg-transparent py-5 px-4 md:hidden flex">
+            <ul x-show="open" class=" flex flex-col space-y-5 text-white items-center text-sm font-medium">
+              <div class="">
+                <li class=""><a href="">Home</a></li>
+                 <li class=""><a href="">Product</a></li>
+                  <li class=""><a href="">Pricing</a></li>
+                  <li class=""><a href="">About</a></li>
+                    <li class=""><a href="">Contact</a></li>
+
+              </div>
+
+              <div class=" flex flex-row space-x-2 items-center mx-auto">
+                <img class="flex items-center  " src="./assets/Vector (2).png">
+                <img class="flex items-center " src="./assets/Vector (1).png">
+                <img class="flex items-center " src="./assets/Vector.png">
+
+              </div>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+<!---hero-text section-->
+  <div class="mx-auto flex flex-1 flex-col justify-center items-center text-center text-white w-[80%] md:px-16 md:py-10 px-5">
+    <h1 class="text-2xl pb-2 md:pb-4 md:text-4xl font-extrabold">
+      The best products<br> start with Figma
+    </h1>
+    <p class="pb-14 text-xs md:text-sm font-1x1 text-center">
+      Most calendars are designed for teams, Slates are designed <br> for Freelancers.
+    </p>
+    <button class="bg-blue-500 text-white px-10 py-2 rounded-full">Try For Free</button>
+
+     </div>
+
+    </div>
+  </header>
+
+  <!----section 2-->
+  <div class=" w-[100%] mx-auto md:pt-30 py-5 flex flex-col items-center justify-center md:px-16 px-5">
+    <h1 class="text-black text-5xl py-5">Features</h1>
+    <p class="pb md:text-3x1 font-normal text-center text-slate-900">
+      Most calendars are designed for teams, </p>
+      <p class=" md:text-2x1 font-normal text-center text-slate-900">Slates are designed for freelancers.
+      </p>
+  </div>
+
+  <!---section 3-->
+  <div class=" pt-6 md:py-14 mx-auto md:px-16 px-5 flex flex-col md:flex-row w-[80%] justify-center space-x-8 space-y-4">
+    <div class="flex flex-col items-center justify-center ">
+      <div class="self-center flex items-center justify-center">
+        <img src="./assets/Vector01.png">
+       </div>
+       <h1 class="font-bold text-sm text-center ">OpenType features <br>
+        Variable fonts</h1>
+        <p class="text-sm font-normal text-slate-600 text-center">Slate helps you see how <br>
+          many more days you need <br>
+          to work to reach your <br>
+          financial goal.</p>
+
+    </div>
+    <div class="flex flex-col items-center justify-center ">
+      <div class="self-center flex items-center justify-center">
+        <img src="./assets/Vector.png">
+       </div>
+       <h1 class="font-bold text-sm text-center">OpenType features <br>
+        Variable fonts</h1>
+        <p class="text-sm font-normal text-slate-600 text-center">Slate helps  you see how <br>
+          many more days you need <br>
+          to work to reach your <br>
+          financial goal.</p>
+
+    </div>
+    <div class="flex flex-col items-center justify-center">
+      <div class="self-center flex items-center justify-center">
+        <img src="./assets/candle.png">
+       </div>
+       <h1 class="font-bold text-sm text-center">OpenType features<br>
+        Variable fonts</h1>
+        <p class="text-sm font-normal text-slate-600 text-center">Slate helps you see how <br>
+          many more days you need <br>
+          to work to reach your <br>
+          financial goal.</p>
+
+    </div>
+  </div>
+
+  <div class="mx-auto">
+    <img src="./assets/@ video screen.png">
+  </div>
+
+</body>

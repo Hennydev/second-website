@@ -1,0 +1,14 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "tailwind a\u001b[Ds\u001b[C\u001b[Dample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hennydev",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
