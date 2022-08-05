@@ -12,7 +12,8 @@
 <body x-data="{ open: false }" class="">
   <!--nav section--->
   <header class="">
-    <div class="w-[100vw] h-[100vh] bg-cover md:h-[710px] md:w-[100%] md:bg-contain bg-no-repeat bg-[url('../src/assets/background.png')]">
+    <div
+      class="w-[100vw] h-[100vh] bg-cover md:h-[710px] md:w-[100%] md:bg-contain bg-no-repeat bg-[url('../src/assets/background.png')]">
       <nav class=" ">
         <div class="hidden md:flex flex justify-between mx-auto w-[80%] bg-transparent md:py-12 md:px-16 ">
           <ul class=" flex flex-row space-x-8 text-white items-center text-1xl font-medium">
@@ -40,17 +41,17 @@
             <ul x-show="open" class=" flex flex-col space-y-5 text-white items-center text-sm font-medium">
               <div class="">
                 <li class=""><a href="">Home</a></li>
-                 <li class=""><a href="">Product</a></li>
-                  <li class=""><a href="">Pricing</a></li>
-                  <li class=""><a href="">About</a></li>
-                    <li class=""><a href="">Contact</a></li>
+                <li class=""><a href="">Product</a></li>
+                <li class=""><a href="">Pricing</a></li>
+                <li class=""><a href="">About</a></li>
+                <li class=""><a href="">Contact</a></li>
 
               </div>
 
               <div class=" flex flex-row space-x-2 items-center mx-auto">
                 <img class="flex items-center  " src="./assets/Vector (2).png">
                 <img class="flex items-center " src="./assets/Vector (1).png">
-                <img class="flex items-center " src="./assets/Vector.png">
+                <img class="flex items-center " src="./assets/instagram111.png">
 
               </div>
             </ul>
@@ -58,72 +59,179 @@
 
         </div>
       </nav>
-<!---hero-text section-->
-  <div class="mx-auto flex flex-1 flex-col justify-center items-center text-center text-white w-[80%] md:px-16 md:py-10 px-5">
-    <h1 class="text-2xl pb-2 md:pb-4 md:text-4xl font-extrabold">
-      The best products<br> start with Figma
-    </h1>
-    <p class="pb-14 text-xs md:text-sm font-1x1 text-center">
-      Most calendars are designed for teams, Slates are designed <br> for Freelancers.
-    </p>
-    <button class="bg-blue-500 text-white px-10 py-2 rounded-full">Try For Free</button>
+      <!---hero-text section-->
+      <div
+        class="mx-auto flex flex-1 flex-col justify-center items-center text-center text-white w-[80%] md:px-16 md:py-10 px-5">
+        <h1 class="text-2xl pb-2 md:pb-4 md:text-4xl font-extrabold">
+          The best products<br> start with Figma
+        </h1>
+        <p class="pb-14 text-xs md:text-sm font-1x1 text-center">
+          Most calendars are designed for teams, Slates are designed <br> for Freelancers.
+        </p>
+        <button class="bg-blue-500 text-white px-10 py-2 rounded-full">Try For Free</button>
 
-     </div>
+      </div>
 
     </div>
   </header>
 
   <!----section 2-->
-  <div class=" w-[100%] mx-auto md:pt-30 py-5 flex flex-col items-center justify-center md:px-16 px-5">
+  <div class=" w-[100%] mx-auto md:pt-30 py-8 md:py-14 flex flex-col items-center justify-center md:px-16 px-5">
     <h1 class="text-black text-5xl py-5">Features</h1>
     <p class="pb md:text-3x1 font-normal text-center text-slate-900">
       Most calendars are designed for teams, </p>
-      <p class=" md:text-2x1 font-normal text-center text-slate-900">Slates are designed for freelancers.
-      </p>
+    <p class=" md:text-2x1 font-normal text-center text-slate-900">Slates are designed for freelancers.
+    </p>
+  </div>
+  <div class="mx-auto md:hidden flex justify-center items-center">
+    <img class="w-[300px]" src="./assets/@ video screen2.png">
   </div>
 
   <!---section 3-->
-  <div class=" pt-6 md:py-14 mx-auto md:px-16 px-5 flex flex-col md:flex-row w-[80%] justify-center space-x-8 space-y-4">
+  <div
+    class=" pt-6 md:py-14 py-8 mx-auto md:px-16 px-5 flex flex-col md:flex-row w-[80%] justify-center space-x-8 space-y-4">
     <div class="flex flex-col items-center justify-center ">
       <div class="self-center flex items-center justify-center">
         <img src="./assets/Vector01.png">
-       </div>
-       <h1 class="font-bold text-sm text-center ">OpenType features <br>
+      </div>
+      <h1 class="font-bold text-sm text-center ">OpenType features <br>
         Variable fonts</h1>
-        <p class="text-sm font-normal text-slate-600 text-center">Slate helps you see how <br>
-          many more days you need <br>
-          to work to reach your <br>
-          financial goal.</p>
+      <p class="text-sm font-normal text-slate-600 text-center">Slate helps you see how <br>
+        many more days you need <br>
+        to work to reach your <br>
+        financial goal.</p>
 
     </div>
     <div class="flex flex-col items-center justify-center ">
       <div class="self-center flex items-center justify-center">
         <img src="./assets/Vector.png">
-       </div>
-       <h1 class="font-bold text-sm text-center">OpenType features <br>
+      </div>
+      <h1 class="font-bold text-sm text-center">OpenType features <br>
         Variable fonts</h1>
-        <p class="text-sm font-normal text-slate-600 text-center">Slate helps  you see how <br>
-          many more days you need <br>
-          to work to reach your <br>
-          financial goal.</p>
+      <p class="text-sm font-normal text-slate-600 text-center">Slate helps you see how <br>
+        many more days you need <br>
+        to work to reach your <br>
+        financial goal.</p>
 
     </div>
     <div class="flex flex-col items-center justify-center">
       <div class="self-center flex items-center justify-center">
         <img src="./assets/candle.png">
-       </div>
-       <h1 class="font-bold text-sm text-center">OpenType features<br>
+      </div>
+      <h1 class="font-bold text-sm text-center">OpenType features<br>
         Variable fonts</h1>
-        <p class="text-sm font-normal text-slate-600 text-center">Slate helps you see how <br>
-          many more days you need <br>
-          to work to reach your <br>
-          financial goal.</p>
+      <p class="text-sm font-normal text-slate-600 text-center">Slate helps you see how <br>
+        many more days you need <br>
+        to work to reach your <br>
+        financial goal.</p>
 
     </div>
   </div>
 
-  <div class="mx-auto">
-    <img src="./assets/@ video screen.png">
+  <div class="mx-auto md:px-16 md:flex hidden py-20">
+    <img class="w-[80%] mx-auto" src="./assets/@ video screen.png">
+  </div>
+  <!----section 4-->
+  <div class=" py-2 md:py-20 mx-auto flex flex-col md:flex-row justify-between w-[80%] md:px-16 px-6 pt-6">
+    <div class="flex flex-col items-center justify-center md:items-start md:justify-start ">
+      <h1 class="text-3xl pb-2 text-center md:text-justify">
+        Fastest way to <br>
+        organize
+      </h1>
+      <p class="pb-6 text-center md:text-justify">
+        Most calendars are designed for teams. <br>
+        Slate is designed for freelancers
+      </p>
+      <div>
+        <button class="bg-blue-500 text-white px-10 py-2 rounded-full">Try For Free</button>
+      </div>
+    </div>
+    <div class="pt-6 md:pt-0">
+      <img class="w-[400px] h-[]" src="./assets/@ Macbook Pro.png">
+    </div>
+
+  </div>
+  <!----section 5-->
+
+  <div class="md:py-20 md:pb-14 py-8 flex flex-col md:flex-row justify-evenly w-[80%] md:px-16 px-6  space-x-20 mx-auto">
+    <div class="pt-6 md:pt-0">
+      <img class="w-[120%] h-[]" src="./assets/left-container.png">
+    </div>
+    <div class="flex flex-col items-center justify-center md:items-start md:justify-start w-[50%]">
+      <p class="text-sm font-bold pb-2 text-center md:text-justify">
+        At your fingertips
+      </p>
+      <p class="pb-6 text-center md:text-justify text-4xl font-normal">
+        Lightning fast <br>
+        prototyping
+      </p>
+      <p class="text-sm font-bold pb-2 text-center md:text-justify">
+        Subscribe to our Newsletter
+      </p>
+      <p class="text-sm font-bold pb-2 text-center md:text-justify">
+        Available exclusively on Figmaland
+      </p>
+      <div class=" w-[80%] flex md:flex-row flex-col space-y-1 md:space-x-1 px-0">
+        <div class=" ">
+          <button class="bg-slate-500 text-black px-8 md:px-12 py-2 rounded-full">Email</button>
+        </div>
+        <div class="w">
+          <button class="bg-blue-500 text-white px-8 md:px-10 py-2 rounded-full text-sm">Try For Free</button>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 
+  <!--section 6-->
+  <div class="text-center flex flex-col items-center justify-center mx-auto md:px-16 px-6 md:py-14 py-8">
+    <h1 class="text-center pb-2 text-lg font-semibold">
+      Partner
+    </h1>
+    <P class="text-center text-sm font-light">Most calendars are designed for teams.<br>
+      Slate is designed for freelancers</P>
+  </div>
+  <!---section 7-->
+  <div>
+    <div
+      class="w-[80%] md:px-16 px-6 pt-5 flex flex-col justify-center items-center md:flex-row mx-auto  space-y-4 md:space-y-0">
+      <img class=" w-[200px] h-[150px] pt:6  md:pb-0  md:w-[200px] " src="./assets/google.png">
+      <img class="w-[200px] h-[150px] my:4 md:pb-0 md:flex md:w-[220px] " src="./assets/@ partner-style-2.png">
+      <img class="w-[200px] h-[150px] my:4 md:pb-0 md:flex md:w-[220px] " src="./assets/microsoft.png">
+      <img class="hidden md:flex w-[200px] h-[150px] " src="./assets/uber.png">
+
+    </div>
+    <div class="w-[80%] md:px-16 px-6 pb-5 hidden justify-center items-center md:flex flex flex-row mx-auto">
+      <img class="w-[220px] h-[150px] " src="./assets/google.png">
+      <img class="w-[200px] h-[150px] " src="./assets/@ partner-style-2.png">
+      <img class="w-[200px] h-[150px]" src="./assets/microsoft.png">
+      <img class="w-[220px] h-[150px]" src="./assets/uber.png">
+    </div>
+
+    <div class="mx-auto flex justify-center items-center py-10 md:py-14">
+      <button class="bg-blue-500 text-white px-10 py-2 rounded-full">Try For Free</button>
+
+    </div> 
+  </div>
+  <!--section 8-->
+  <div class="">
+<h1 class="mx-auto flex items-center justify-center md:pt-8 pb-1 font-medium text-3xl ">
+  Testimonials
+</h1>
+  <div class="pb-10 mx-auto flex items-center justify-center">
+    <img class="w-[80px]" src="./assets/ibm.png">
+  </div>
+<p class="mx-auto text-center font-normal text-sm px-6">Most calendars are designed for teams. Slate is designed for freelancers <br>
+  who want a simple way to plan their schedule.</p>
+
+  <div class="flex flex-row justify-center items-center pt-5 md:pt-10 ">
+    <img src="./assets/bottomimg.png">
+    <p class="text-xs">Organise across <br> schedule</p>
+  </div>
+
+  <div class="mx-auto flex justify-center items-center">
+    <button class="bg-blue-500 text-white px-8 py-2 rounded-full">More Testimonials</button>
+
+  </div> 
+  </div>
 </body>
